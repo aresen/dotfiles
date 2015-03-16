@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'tpope/vim-vinegar'
+Plug 'techlivezheng/vim-plugin-minibufexpl'
 
 call plug#end()
 
@@ -10,11 +11,16 @@ colorscheme desert
 set background=dark
 
 " history
-set history=0
+set history=300
 
 " filetype plugin
 filetype plugin on
 filetype indent on
+
+" Turn backup off
+set nobackup
+set nowb
+set noswapfile
 
 " autoread when file is changed
 set autoread
