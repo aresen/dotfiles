@@ -4,6 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'tpope/vim-vinegar'
 Plug 'techlivezheng/vim-plugin-minibufexpl'
+Plug 'mustache/vim-mustache-handlebars'
 
 call plug#end()
 
