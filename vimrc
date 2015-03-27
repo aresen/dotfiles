@@ -33,7 +33,7 @@ set ruler
 set hlsearch
 
 " syntax highlighting
-set syntax
+"set syntax
 
 " line numbering
 set number
