@@ -67,6 +67,7 @@ set tabstop=4
 set ai
 set si
 set wrap
+set softtabstop=4 shiftwidth=4 shiftround
 
 """"""""""""""""""""""""""""""""
 " splits
